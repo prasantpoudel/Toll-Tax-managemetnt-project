@@ -15,7 +15,7 @@ if (strlen($_SESSION['ttmsaid']==0)) {
     $vto=$_POST['vto'];
     $appname=$_POST['appname'];
     $appgender=$_POST['appgender'];
-     $appage=$_POST['appage'];
+    $appage=$_POST['appage'];
     $appadd=$_POST['appadd'];
     $costpass=$_POST['costpass'];
     $passid = mt_rand(100000000, 999999999);
